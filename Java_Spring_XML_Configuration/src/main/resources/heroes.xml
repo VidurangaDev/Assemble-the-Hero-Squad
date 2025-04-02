@@ -11,7 +11,7 @@
         <constructor-arg index="1" value="5"/>
     </bean>
 
-    <bean class="com.example.testingpom.java_spring_xml_configuration.WonderWoman" id="wonderWoman" scope="singleton">
+    <bean class="com.example.testingpom.java_spring_xml_configuration.WonderWoman" id="wonderWoman" scope="prototype">
 
     </bean>
 
