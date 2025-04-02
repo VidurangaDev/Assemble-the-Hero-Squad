@@ -1,5 +1,6 @@
 package com.example.testingpom.java_spring_xml_configuration;
 
+
 public class Superman implements Hero {
     protected String powerLevel;
     protected int experience;
@@ -11,6 +12,6 @@ public class Superman implements Hero {
 
     @Override
     public void action() {
-        System.out.println("\"Superman with power level" + powerLevel + "and " + experience + "years of experience is flying!");
+        System.out.println("Superman with power level " + powerLevel + " and " + experience + " years of experience is flying!");
     }
 }

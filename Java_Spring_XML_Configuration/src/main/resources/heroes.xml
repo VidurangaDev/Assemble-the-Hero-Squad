@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+
+    <bean class="com.example.testingpom.java_spring_xml_configuration.Superman" id="superman" scope="singleton">
+        <constructor-arg index="0" value="Ultra"/>
+        <constructor-arg index="1" value="5"/>
+    </bean>
+
+    <bean class="com.example.testingpom.java_spring_xml_configuration.WonderWoman" id="wonderWoman" scope="singleton">
+
+    </bean>
+
+    <bean class="com.example.testingpom.java_spring_xml_configuration.TalkingCat" id="talkingCat" scope="singleton">
+
+    </bean>
+
+
+
+</beans>
